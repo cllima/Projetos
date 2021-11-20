@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+h2,h3{
+    margin: 0;
+    padding: 0;
+    
+}
+
+figure.palacio{
+  border: white 5px;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  box-shadow: 3px 3px 4px #00000075;
+}
+
+figure.palacio img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Faz a transparencia rgba*/
+figure.palacio figcaption{
+  background-color: rgba(0, 0, 0,0.4);
+  color: #ffff23;
+  font-size: 1.5vw;
+ 
+  padding: 5px 2px 5px 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  opacity: 0;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  transition: opacity 3s;
+}
+
+figure.palacio figcaption:hover{
+  opacity: 1;
+}
+
+/*################################*/
+
+#segundo img{
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+#segundo{
+  text-align: justify;
+}
+
+.destaque::first-letter{
+  font-size: 50px;
+  color: blue;
+}
