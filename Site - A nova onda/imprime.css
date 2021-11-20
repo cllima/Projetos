@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+    figure,img {
+      display: none;
+    }
+  
+    /* Usa-se para evitar a impressão das imagens ao imprimir */
